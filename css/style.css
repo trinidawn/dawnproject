@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	background-color: #7c9fba;
+	font-family: 'Shrikhand', cursive; 
+}
+
+.main-body{
+	text-align: center;
+	font-family: 'Shrikhand', cursive;
+}
+
+h1{
+	margin-left: 15px;
+}
+
+/*Navigation Styles */
+nav{
+	text-align: center;
+	background-color: #093987;
+	font-size: 20px;
+}
+
+nav ul{
+	list-style: none;
+	text-transform: uppercase;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 30px;
+}
+
+a{
+	color: white;
+}
+
+a:hover {
+	color: aqua;
+	font-size: 20px;
+}
+/* End of Navigation*/
+
+/* Footer style */
+.main-footer{
+	text-align: center;
+	padding: 30px;
+	font-family: 'Arvo', serif; 
+}
+
+.main-footer ul{
+	list-style: none;
+    padding: 0;
+}
+
+.main-footer li {
+	display: inline-block;
+}
+
+.main-footer a{
+	/*float: right;*/
+	display: auto;
+}
+/* End of Footer*/
+
+
+/* Images 100% */
+img{
+	width: 100%;
+}
